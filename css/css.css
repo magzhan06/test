@@ -187,19 +187,20 @@ body{
     }
     img{
         position: absolute;
-        left: 0px;
-        width: 100%;
+        top: -50;
+        left: -100%;
+        width: 200%;
     }
     .logo{
         position: absolute;
         left: 21%;
-        width: 3.2%;
+        width: 7.2%;
     }
     .menu{
         position: absolute;
         top: 1.5%;
         left: 76.3%;
-        width: 2.55%;
+        width: 6.55%;
     }
     .container{
         max-width: 1024px;
@@ -214,11 +215,11 @@ body{
         position: relative;
     }
     #header_text1{
-        padding-top: 10%;
+        padding-top: 30%;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 3.35vw;
+        font-size: 5vw;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: uppercase;
@@ -230,7 +231,7 @@ body{
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 400;
-        font-size: 0.9vw;
+        font-size: 2vw;
         line-height: 27px;
         text-align: center;
         letter-spacing: 0.03em;
