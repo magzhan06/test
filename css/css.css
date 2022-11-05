@@ -240,6 +240,49 @@ body{
         font-size: 0.7vw;
         color: #000000;
     }
+    .services{
+        position: absolute;
+        margin-left: 21.5vw;
+        margin-top: 25vw;
+        width: 57.5vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group1, .services_group2, .services_group3, .services_group4, .services_group5, .services_group6 {
+        float: left;
+        margin-top: 3.8vw;
+        width: 18vw;
+        height: 13vw;
+    }
+    .services_group2, .services_group3, .services_group5, .services_group6{
+        margin-left: 1.7vw;
+    }
+    .services_group4, .services_group5, .services_group6{
+        margin-top: 0.6vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 5.1vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) { 
     body{
@@ -470,6 +513,49 @@ body{
         font-size: 0.7vw;
         color: #000000;
     }
+    .services{
+        position: absolute;
+        margin-left: 21.5vw;
+        margin-top: 25vw;
+        width: 57.5vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group1, .services_group2, .services_group3, .services_group4, .services_group5, .services_group6 {
+        float: left;
+        margin-top: 3.8vw;
+        width: 18vw;
+        height: 13vw;
+    }
+    .services_group2, .services_group3, .services_group5, .services_group6{
+        margin-left: 1.7vw;
+    }
+    .services_group4, .services_group5, .services_group6{
+        margin-top: 0.6vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 5.1vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
 }
 @media all and (min-width: 481px) and (max-width: 768px) { 
     body{
@@ -688,6 +774,49 @@ body{
         font-size: 1.3vw;
         color: #000000;
     }
+    .services{
+        position: absolute;
+        margin-top: 50vw;
+        margin-left: 5vw;
+        width: 95vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group1, .services_group2, .services_group3, .services_group4, .services_group5, .services_group6 {
+        float: left;
+        margin-top: 3.8vw;
+        width: 30vw;
+        height: 13vw;
+    }
+    .services_group2, .services_group3, .services_group5, .services_group6{
+        margin-left: 1.7vw;
+    }
+    .services_group4, .services_group5, .services_group6{
+        margin-top: 5vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 30vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
 }
 @media all and (max-width: 480px) {
     body{
@@ -904,6 +1033,49 @@ body{
         font-style: normal;
         font-weight: 500;
         font-size: 1.3vw;
+        color: #000000;
+    }
+    .services{
+        position: absolute;
+        margin-top: 50vw;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 82.5vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group1, .services_group2, .services_group3, .services_group4, .services_group5, .services_group6 {
+        float: left;
+        margin-top: 3.8vw;
+        width: 40vw;
+        height: 22vw;
+    }
+    .services_group2, .services_group4, .services_group6{
+        margin-left: 10vw;
+    }
+    .services_group4, .services_group5, .services_group6{
+        margin-top: 5vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 30vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
         color: #000000;
     }
 }
