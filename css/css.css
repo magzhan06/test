@@ -117,7 +117,79 @@ body{
         text-align: center;
         color: #999999;
     }
-} 
+    .project{
+        margin-top: 29vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 35vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.89vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item2{
+        position: absolute;
+        margin-left: 19.8vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item3{
+        position: absolute;
+        margin-left: 39.5vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        float: left;
+        width: 18.2vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 22vw;
+        width: 2.9vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        padding-top: 3.5vw;
+        float: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 25.5vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.173vw;
+        
+        color: #999999;
+    }
+}
 @media all and (min-width: 768px) and (max-width: 1024px) { 
     body{
         margin: auto;
@@ -221,6 +293,78 @@ body{
         text-align: center;
         color: #999999;
     }
+    .project{
+        margin-top: 6vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 35vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.89vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item2{
+        position: absolute;
+        margin-left: 19.8vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item3{
+        position: absolute;
+        margin-left: 39.5vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        float: left;
+        width: 18.2vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 22vw;
+        width: 2.9vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        padding-top: 3.5vw;
+        float: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 25.5vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.173vw;
+        
+        color: #999999;
+    }
 }
 @media all and (min-width: 480px) and (max-width: 768px) { 
     body{
@@ -228,20 +372,20 @@ body{
     }
     #back{
         position: absolute;
-        left: 0px;
-        width: 100%;
+        left: -50%;
+        width: 150%;
     }
     #logo{
         position: absolute;
         top: 1vw;
-        left: 21%;
-        width: 3.2%;
+        left: 14%;
+        width: 6.2%;
     }
     #menu{
         position: absolute;
         top: 1.6vw;
-        left: 76.3%;
-        width: 2.55%;
+        left: 78.5%;
+        width: 5.55%;
     }
     .container{
         max-width: 1024px;
@@ -256,23 +400,23 @@ body{
         position: relative;
     }
     #header_text1{
-        padding-top: 10%;
+        padding-top: 15%;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 3.35vw;
+        font-size: 4.35vw;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: uppercase;
         color: #FFFFFF; 
     }
     #header_text2{
-        padding-top: 10px;
+        padding-top: 5px;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 400;
-        font-size: 0.9vw;
-        line-height: 27px;
+        font-size: 1.5vw;
+        line-height: 20px;
         text-align: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
@@ -281,29 +425,28 @@ body{
     .numbers{
         position: relative;
         background: #F7F7F7;
-        margin-top: 7.5%;
-        margin-left: 21%;
-        width: 57.8vw;
-        height: 15.5vw;
+        margin-top: 6vw;
+        margin-left: 25%;
+        width: 50vw;
+        height: 45vw;
     }
     .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
         position: absolute;
-        margin-left: 6.5vw;
         margin-top: 2.8vw;
-        width: 10vw;
-        height: 10vw;
+        width: 15vw;
+        height: 15vw;
         text-align: center;
     }
-    .numbers_item1{ margin-left: 6.5vw; }
-    .numbers_item2{ margin-left: 18.1vw; }
-    .numbers_item3{ margin-left: 29.7vw; }
-    .numbers_item4{ margin-left: 41.3vw; }
+    .numbers_item1{ margin-left: 5vw; }
+    .numbers_item2{ margin-left: 30vw; }
+    .numbers_item3{ margin-left: 5vw; margin-top: 25vw; }
+    .numbers_item4{ margin-left: 30vw; margin-top: 25vw;}
     #nt1{
 
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 3.8vw;
+        font-size: 5.8vw;
         text-align: center;
         text-transform: uppercase;
         color: #F7654A;
@@ -312,7 +455,7 @@ body{
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 1.8vw;
+        font-size: 3vw;
         text-align: center;
         text-transform: uppercase;
         color: #000000;
@@ -321,8 +464,76 @@ body{
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 1vw;
+        font-size: 2vw;
         text-align: center;
+        color: #999999;
+    }
+    .project{
+        position: relative;
+        margin-top: 6vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    .project_item2{
+        display: none;
+    }
+    .project_item3{
+        display: none;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        margin-left: 14vw;
+        width: 30vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 35vw;
+        margin-left: 14vw;
+        width: 30vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        margin-left: 15vw;
+        padding-top: 4vw;
+        float: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        color: #404149;
+    }
+    #project_text2{
+        margin-left: 15vw;
+        padding-top: 40vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        
         color: #999999;
     }
 }
@@ -400,7 +611,6 @@ body{
         height: 30vw;
         text-align: center;
     }
-    .numbers_item1{}
     .numbers_item2{display: none;}
     .numbers_item3{display: none;}
     .numbers_item4{display: none;}
