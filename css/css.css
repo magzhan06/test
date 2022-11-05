@@ -7,13 +7,10 @@ all - 480
     margin:0; 
     padding:0; 
 }
-.container{
-    border: 1px;
-}
 body{ 
     text-align: center;
 }
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1025px) and (max-width: 1280px) {
     body{
         margin: auto;
     }
@@ -37,8 +34,6 @@ body{
     .container{
         max-width: 1280px;
         margin: 0 auto;
-        border-color: red;
-        border-style: inset;
     }
 
     .text{
@@ -189,8 +184,64 @@ body{
         
         color: #999999;
     }
+    .request{
+        position: absolute;
+        margin-top: 8vw;
+        height: 11vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 0.7vw;
+        margin-left: 21.2vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        line-height: 71px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        text-align: left;
+        position: absolute;
+        margin-top: -0.6vw;
+        margin-left: 21.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        line-height: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: -2.5vw;
+        margin-left: 70.2vw;
+        width: 8.9vw;
+        height: 2.3vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 0.7vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 1vw;
+        height: 1vw;
+    }
+    #request_button_text{
+        width: 7vw;
+        padding-left: 1vw;
+        padding-top: 0.49vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.7vw;
+        color: #000000;
+    }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) { 
+@media all and (min-width: 769px) and (max-width: 1024px) { 
     body{
         margin: auto;
     }
@@ -214,8 +265,6 @@ body{
     .container{
         max-width: 1024px;
         margin: 0 auto;
-        border-color: red;
-        border-style: inset;
     }
 
     .text{
@@ -365,8 +414,64 @@ body{
         
         color: #999999;
     }
+    .request{
+        position: absolute;
+        margin-top: 8vw;
+        height: 11vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 0.7vw;
+        margin-left: 21.2vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        line-height: 71px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        text-align: left;
+        position: absolute;
+        margin-top: -0.6vw;
+        margin-left: 21.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        line-height: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: -2.5vw;
+        margin-left: 70.2vw;
+        width: 8.9vw;
+        height: 2.3vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 0.7vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 1vw;
+        height: 1vw;
+    }
+    #request_button_text{
+        width: 7vw;
+        padding-left: 1vw;
+        padding-top: 0.49vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.7vw;
+        color: #000000;
+    }
 }
-@media all and (min-width: 480px) and (max-width: 768px) { 
+@media all and (min-width: 481px) and (max-width: 768px) { 
     body{
         margin: auto;
     }
@@ -390,8 +495,6 @@ body{
     .container{
         max-width: 1024px;
         margin: 0 auto;
-        border-color: red;
-        border-style: inset;
     }
 
     .text{
@@ -425,10 +528,10 @@ body{
     .numbers{
         position: relative;
         background: #F7F7F7;
-        margin-top: 6vw;
+        margin-top: 15vw;
         margin-left: 25%;
         width: 50vw;
-        height: 45vw;
+        height: 22.5vw;
     }
     .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
         position: absolute;
@@ -439,8 +542,8 @@ body{
     }
     .numbers_item1{ margin-left: 5vw; }
     .numbers_item2{ margin-left: 30vw; }
-    .numbers_item3{ margin-left: 5vw; margin-top: 25vw; }
-    .numbers_item4{ margin-left: 30vw; margin-top: 25vw;}
+    .numbers_item3{display: none;}
+    .numbers_item4{display: none;}
     #nt1{
 
         font-family: 'Oswald';
@@ -532,6 +635,59 @@ body{
         
         color: #999999;
     }
+    .request{
+        position: absolute;
+        margin-top: 20vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 2vw;
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        padding-top: 2vw;
+        text-align: center;
+        margin-top: -0.6vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: 4vw;
+        margin-left: 43.5vw;
+        width: 13vw;
+        height: 4vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 1vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 2vw;
+        height: 2vw;
+    }
+    #request_button_text{
+        width: 15vw;
+        text-align: left;
+        padding-left: 4.2vw;
+        padding-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #000000;
+    }
 }
 @media all and (max-width: 480px) {
     body{
@@ -558,8 +714,6 @@ body{
     .container{
         max-width: 1024px;
         margin: 0 auto;
-        border-color: red;
-        border-style: inset;
     }
 
     .text{
@@ -698,5 +852,58 @@ body{
         line-height: 3.3vw;
         
         color: #999999;
+    }
+    .request{
+        position: absolute;
+        margin-top: 20vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 1vw;
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        padding-top: 1vw;
+        text-align: center;
+        margin-top: -0.6vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: 1.5vw;
+        margin-left: 43.5vw;
+        width: 13vw;
+        height: 4vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 1vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 2vw;
+        height: 2vw;
+    }
+    #request_button_text{
+        width: 15vw;
+        text-align: left;
+        padding-left: 4.2vw;
+        padding-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #000000;
     }
 }
