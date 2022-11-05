@@ -503,35 +503,32 @@ body{
         height: 30vw;
     }
     #project_img{
-        margin-left: 14vw;
+        margin-left: 1vw;
         width: 30vw;
     }
     .project_line{
         position: relative;
         background-color: #F7654A;
-        top: 35vw;
-        margin-left: 14vw;
+        top: 2vw;
+        margin-left: 14.4vw;
         width: 30vw;
         height: 0.3vw;
     }
     #project_text1{
-        margin-left: 15vw;
-        padding-top: 4vw;
-        float: left;
+        margin-left: 1vw;
+        padding-top: 3vw;
         font-family: 'Oswald';
         font-style: normal;
         font-weight: 500;
-        font-size: 2vw;
+        font-size: 3vw;
         color: #404149;
     }
     #project_text2{
-        margin-left: 15vw;
-        padding-top: 40vw;
-        text-align: left;
+        padding-top: 1vw;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 1.5vw;
+        font-size: 2vw;
         line-height: 2vw;
         
         color: #999999;
@@ -639,6 +636,72 @@ body{
         font-weight: 500;
         font-size: 3vw;
         text-align: center;
+        color: #999999;
+    }
+    .project{
+        position: relative;
+        margin-top: 6vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    .project_item2{
+        display: none;
+    }
+    .project_item3{
+        display: none;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        margin-left: 1vw;
+        width: 30vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 2vw;
+        margin-left: 14.4vw;
+        width: 30vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        margin-left: 1vw;
+        padding-top: 3vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 1vw;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 2vw;
+        
         color: #999999;
     }
 }
