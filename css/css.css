@@ -436,6 +436,83 @@ body{
         width: 100vw;
         background: #F7654A;
     }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 21.1vw;
+        width: 58vw;
+        height: 16vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 1.73vw;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 2vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.32vw;
+        line-height: 2vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
 }
 @media all and (min-width: 769px) and (max-width: 1024px) { 
     body{
@@ -862,6 +939,83 @@ body{
         width: 100vw;
         background: #F7654A;
     }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 21.1vw;
+        width: 58vw;
+        height: 16vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 1.73vw;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 2vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.32vw;
+        line-height: 2vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
 }
 @media all and (min-width: 481px) and (max-width: 768px) { 
     body{
@@ -1252,7 +1406,7 @@ body{
     #reviews_text2{
         margin-left: 1.5vw;
         margin-top: -3.1vw;
-        width: 50vw;
+        width: 48vw;
         text-align: left;
         font-family: 'Open Sans';
         font-style: normal;
@@ -1276,6 +1430,83 @@ body{
         height: 20vw;
         width: 100vw;
         background: #F7654A;
+    }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 41vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 25vw;
+        height: 15vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 10vw;
+        margin-top: 3.9vw;
+        width: 25vw;
+        height: 15vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 3vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.7vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        line-height: 3vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
     }
 }
 @media all and (max-width: 480px) {
@@ -1694,9 +1925,79 @@ body{
     }
     .request2{
         position: absolute;
-        margin-top: 5vw;
+        margin-top: 25vw;
         height: 20vw;
         width: 100vw;
         background: #F7654A;
+    }
+    .contacts{
+        margin-top: 50vw;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 138vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 5vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 60vw;
+        height: 30vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 7vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 3vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 2vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 10vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #FFFFFF;
     }
 }
